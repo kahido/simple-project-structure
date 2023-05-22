@@ -65,7 +65,6 @@ if(ENABLE_PCH)
     INTERFACE
     <vector>
     <string>
-    <map>
     <utility>)
 endif()
 
@@ -74,6 +73,6 @@ add_subdirectory(source)
 
 if(ENABLE_TESTING)
   enable_testing()
-  message("Building Tests. Be sure to check out test/constexpr_tests for constexpr testing")
+  message("Building Tests")
   add_subdirectory(test)
 endif()

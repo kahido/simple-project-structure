@@ -30,7 +30,7 @@ CMake will detect which compiler was used to build each of the Conan targets. If
 
 ### (2) Configure your build
 
-To configure the project, you could use `cmake`, or `ccmake` or `cmake-gui`. Each of them are explained in the following:
+To configure the project, you could use `cmake` or `ccmake`. Each of them are explained in the following:
 
 #### (2.a) Configuring via cmake:
 With Cmake directly:
